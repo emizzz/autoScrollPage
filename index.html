@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+		body{
+			margin: 0px !important;
+		}
+		.autoScrollPage {
+			min-height: 100vh;
+		}
+	</style>
+
+</head>
+<body>
+	<div>
+		<div class="autoScrollPage" style="background-color: #FF8F00">
+			<div style="padding: 20%">
+				<h3>First Page</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut urna tempus, auctor sapien auctor, dictum sapien. In quis
+				posuere quam, eu pharetra felis. Proin scelerisque convallis ante, vitae auctor mi gravida nec. Phasellus ligula lacus, tincidunt
+				ut erat sit amet, varius cursus enim. Proin in volutpat nibh, non porttitor quam.
+				</p>
+				<button class="autoScrollPageDown" style="margin: auto; display: block; margin-top: 10px;">Next</button>
+			</div>
+		</div>
+		<div class="autoScrollPage" style="background-color: #795548">
+			<div style="padding: 20%">
+				<h3>Second Page</h3>
+				<button class="autoScrollPageTop" style="margin: auto; display: block; margin-top: 10px;">Back</button>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut urna tempus, auctor sapien auctor, dictum sapien. In quis
+					posuere quam, eu pharetra felis. Proin scelerisque convallis ante, vitae auctor mi gravida nec. Phasellus ligula lacus,
+					tincidunt ut erat sit amet, varius cursus enim. Proin in volutpat nibh, non porttitor quam.
+				</p>
+				<button class="autoScrollPageDown" style="margin: auto; display: block; margin-top: 10px;">Next</button>
+			</div>
+		</div>
+		<div class="autoScrollPage" style="background-color: #FBC02D">
+			<div style="padding: 20%">
+				<h3>Third Page</h3>
+				<button class="autoScrollPageTop" style="margin: auto; display: block; margin-top: 10px;">Back</button>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut urna tempus, auctor sapien auctor, dictum sapien. In
+					quis posuere quam, eu pharetra felis. Proin scelerisque convallis ante, vitae auctor mi gravida nec. Phasellus ligula
+					lacus, tincidunt ut erat sit amet, varius cursus enim. Proin in volutpat nibh, non porttitor quam.
+				</p>
+			</div>
+		</div>
+	<script type="module">
+		import AutoPageScroll from "./src/AutoPageScroll.js" 
+
+		//init the autoPageScroll with speed=3 
+		const autoPageScroll = new AutoPageScroll(3);
+		
+		//add the boundaries of the current page 
+		autoPageScroll.addLockScroll(); 
+		
+		//remove the bundaries of the current page (user can freely scroll the entire page) 
+		//autoPageScroll.removelockScroll();
+
+	</script>
+</body>
+
+</html>
