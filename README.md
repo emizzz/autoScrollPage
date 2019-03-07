@@ -1,11 +1,6 @@
 # autoScrollPage
 A JS plugin that allows to scroll the pages automatically by clicking the buttons.
 
-<br>
-
-:warning: The code is written in ES6, so probably you need Babel (https://babeljs.io/) or some other compilers
-
-<br>
 
 ## Getting Started
 1) Import css: 
