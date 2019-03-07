@@ -1,13 +1,6 @@
 <html>
 <head>
-	<style>
-		body{
-			margin: 0px !important;
-		}
-		.autoScrollPage {
-			min-height: 100vh;
-		}
-	</style>
+	<link rel="stylesheet" href="./css/AutoScrollPage.css">
 </head>
 <body>
 	<div>
@@ -39,19 +32,22 @@
 				lacus, tincidunt ut erat sit amet, varius cursus enim. Proin in volutpat nibh, non porttitor quam.</p>
 			</div>
 		</div>
-		
-	<script type="module">
-		import AutoPageScroll from "./src/AutoPageScroll.js" 
-		
+	
+	
+	<script src="./lib/AutoScrollPage.bundle.js"></script>
+	<script>	
+
 		//init the autoPageScroll with speed=3 
-		const autoPageScroll = new AutoPageScroll(3);
-		
+		var autoScrollPage = new AutoScrollPage(3);
 		//add the boundaries of the current page 
-		autoPageScroll.addLockScroll(); 
+		autoScrollPage.addLockScroll(); 
 		
 		//remove the bundaries of the current page (user can freely scroll the entire page) 
-		//autoPageScroll.removelockScroll();
+		//autoScrollPage.removelockScroll();
+
 	</script>
+	
+
 </body>
 
 </html>
