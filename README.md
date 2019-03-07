@@ -10,7 +10,7 @@ A JS plugin that allows to scroll the pages automatically by clicking the button
 ## Getting Started
 1) Import css: 
 ```css
-<link rel="stylesheet" href="./css/AutoScrollPage.css">
+<link rel="stylesheet" href="./lib/AutoScrollPage.css">
 ```
 2) Import the AutoPageScroll class:
 ```javascript
