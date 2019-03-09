@@ -1,6 +1,9 @@
 # autoScrollPage
 A JS mini-library that allows to scroll the pages automatically by clicking the buttons.
 
+Tested:
+  -with React
+  -with mobile devices
 
 ## Getting Started
 1) Import css: 
