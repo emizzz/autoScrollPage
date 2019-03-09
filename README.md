@@ -4,11 +4,11 @@ A JS mini-library that allows to scroll the pages automatically by clicking the 
 
 ## Getting Started
 1) Import css: 
-```css
+```html
 <link rel="stylesheet" href="./lib/AutoScrollPage.css">
 ```
 2) Import the AutoPageScroll class:
-```javascript
+```html
 <script src="./lib/AutoScrollPage.bundle.js"></script>
 ```
 3) Create an instance of the class with the parameter "speed" (in the gif example this param is 3)
