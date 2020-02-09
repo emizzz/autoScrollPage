@@ -25,5 +25,3 @@ autoPageScroll.addLockScroll();
 
 //autoPageScroll.removelockScroll();
 ```
-
-![Alt Text](https://media.giphy.com/media/APqdCCpIZw7JD5xHok/giphy.gif)
